@@ -1,0 +1,1 @@
+(()=>{"use strict";(()=>{const t=JSON.parse('{"title":"Im a JSON file"}'),e=new class{constructor(t,e){this.title=t,this.img=e,this.date=new Date}toString(){return JSON.stringify({title:this.title,img:this.img,date:this.date})}}("Webpack Test","WebpackImg");console.log(e.toString()),console.log(t)})()})();
