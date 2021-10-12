@@ -5,6 +5,10 @@ export default class Post {
         this.date = new Date()
     }
 
+    /*
+    WOWWOWOWOWOWOOWO
+     */
+
     toString() {
         return JSON.stringify({
             title: this.title,
