@@ -1,10 +1,11 @@
 // import axios from "axios"
-import Post from "@/post.js";
+import Post from "@/post.js"
 import json from '@/assets/json.json'
 //import WebpackImg from './assets/webpack.svg'
 import '@/styles/styles.css'
 
 const post = new Post('Webpack Test', 'WebpackImg')
+const post2 = new Post('Webpack Test', 'WebpackImg')
 
 console.log(post.toString())
 
